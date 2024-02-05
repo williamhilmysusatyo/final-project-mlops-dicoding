@@ -4,7 +4,7 @@ import os
 import tensorflow as tf
 import tensorflow_transform as tft
 from keras.utils import plot_model
-from transform import(CATEGORICAL_FEATURES, LABEL_KEY, NUMERICAL_FEATURES, transformed_name,)
+from module.transform import(CATEGORICAL_FEATURES, LABEL_KEY, NUMERICAL_FEATURES, transformed_name,)
 
 
 def get_model(show_summary=True):

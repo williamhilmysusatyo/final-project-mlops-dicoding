@@ -1,6 +1,6 @@
 FROM tensorflow/serving:latest
 
-COPY ./output/serving_model /models/diabetes-classification-model
+COPY ./luaran/serving_model /models/diabetes-classification-model
 COPY ./config /model_config
 ENV MODEL_NAME=diabetes-classification-model
 

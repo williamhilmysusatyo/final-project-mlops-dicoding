@@ -51,7 +51,7 @@ def initialize_local_pipeline(components, pipeline_root: Text) -> pipeline.Pipel
 if __name__ == '__main__':
     logging.set_verbosity(logging.INFO)
 
-    from components import init_components
+    from module.components import init_components
     components = init_components(
         DATA_ROOT,
         training_module=TRAINER_MODULE_FILE,
